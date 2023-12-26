@@ -1,0 +1,20 @@
+RPG DE TURNOS
+Classes possiveis:
+
+Warrior - maiores pontos de pancada
+Wizard - usa magia
+Healer - da suporte
+Rogue - maior dano sequencial
+ - calss levels
+
+//
+
+sistema de vendas
+equipamentos
+consumiveis
+
+//
+
+sistema de batalha - baseada em turnos
+world levels
+	monstros diferentes
