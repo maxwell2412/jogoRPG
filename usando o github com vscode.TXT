@@ -1,0 +1,17 @@
+com o vc code instalado e o git tambem vamos clicar na pasta do projeto com botao direito do mouse
+e escolher 'git bash here'. 
+dai vamos digitar 'code .'.
+ele vai abrir o projeto com o code
+vamos criar um arquivo de teste e salvalo
+agora se não temos o git hub conectado ao vscode, vamos descer ate o icone "acounts", que é uma imagem de perfil
+dai clicar em sign in pra sincronizar as configurações, sendo com microsoft ou git hub, sendo que tem que ter certeza que ele esta na conta do github
+dai podemos colocar uma extensão que ele sugere.
+agora vamos no versionador local, com o icone do git "source control"
+vamos clicar em inicializar repositorio local.
+dai ele mostra que tem um arquivo novo, marcado como 'U', e ele da a opção de commit
+mas precisamos colocar um texto, acima dele tem o campo de texto para o commit
+tem a seta que mostra que podemos so dar um comit , ou com push, ou com sinc.
+vamos colocar uma mensagem inicial, e apenas um commit
+depois ele vai dar um botao de "publish branch", por padrão é main ou master, podemos ver no canto inferior esquerdo do vs code
+vamos publicar essa branch, la no botão
+
