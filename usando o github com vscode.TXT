@@ -84,4 +84,49 @@ se dermos o git status ele vai dizer nada a comitar, pois vai estar tudo comitad
 o comando para mudar de branch
 git branch -M "main"
 
+depois de criado o repositorio no github , tem mais dois  comandos que nao falamos
+tem o git remote que add uma referencia para a pagina que hospeda o projeto com origem
+git remote add origin caminho/ssh key
+
+e para poder empurrar os arquivos vamos dar um push
+git push
+ou git push -u origin main
+o origin é o apelido que demos pra referencia e o main é o nme da branch principal do nosso projeto
+
+depois de dar enter ele vai pedir o login do github pra confirmar as credenciais
+
+se quisermos criar uma nova branch , podemos dar o seguinte comando
+git checkout -b "nome_nova_branch"
+
+fazendo isso ja troca alem de criar a nova branch/area de trabalho
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
