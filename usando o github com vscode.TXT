@@ -109,8 +109,11 @@ git merge nome_nova_branch
 depois damos o push na main pra subir tudo
 git push origin main
 
+agora a ultima coisa é o pull request.
+se você criar um fork, e puxado para o perfil, e quer mandar uma solicitação para o autor principal para ele verificar se vale a pena  add no projeto
+ai podemos dar um commit, e dar um open pull request
 
-
+você tem que sempre descrever o que fez de alteração , e como testar 
 
 
 
