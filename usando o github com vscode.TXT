@@ -15,3 +15,73 @@ vamos colocar uma mensagem inicial, e apenas um commit
 depois ele vai dar um botao de "publish branch", por padrão é main ou master, podemos ver no canto inferior esquerdo do vs code
 vamos publicar essa branch, la no botão
 
+ele vai abrir o navegador novamente para vc logar no git, e ai vocÊ abreo giothub denovo
+ai ele vai te perguntar se quer que essa extensão faça login na sua conta direto.
+
+la em cima tem tipo uma barra de pesquisa , e ele vai te dar duas escolhas para publicar, como repositorio publico ou privado
+damos um nome pra ele e escolhemos o tipo de reposiutorio.
+
+se alguem de um grupo de trabalho criou algo no git, podemos clicar no botão 'sync changes'
+
+agora se eu alterar um arquivo no vscode, ele vai marcar com um 'M' na frente do arquivo modificado, mas não vai salvar no github
+
+podemos dar um "commit and push" pela seta do coommit, com mu comentario referenmte a mudança
+
+se nao quisermos essa mudança , tem um seta circular para o lado esquerdo
+
+podemos criar outra branch, para o trabalho, que é uma estação de trabalho ou mesa
+
+clicando la em baixo no lugar da branch main, ai ele vai te dirtecionar la para a barra de criação, vocÊ da um nome e dai criar.
+
+podendo trocar entre branch e deixando tudo organizado
+
+
+agora vamos falar sobre definição e conceito.
+o git é um repositorio de versão(versionador), e o github é uma rede social para devs trocar informação com a comunidade.
+o git é repositorio local, e o github é online, onde trocamos os codigos com geral.
+pdemos dar um fork, e desenvolver um bifurcação , ou seja um caminho paralelo de um projeto.
+a branch são estaçoes de trabalho para poder dividir e organizar as ramificações diferentes . pois tem parte do projeto que não precisa seguir a mesma linha e talvez seja alteradas com mais frequencia.
+depois de todas estasções de trabalho / mesas () branch finalizarem, podemos commitar!
+o commit é postar as alterações para a rede (github) podendo add uma mensagem pra indentificar a versão, geralmente quando temos varias branch fazemos merge!
+que é um casamento da branch alternativa com a principal. e aqui é a magica de ambos editores fazerem modificações e ambas serem salvas
+ha uma comparação entre o codigo postado com seu, e dai ele faz a modificação automaticamente.
+
+podemos usar o remote que é uma plataforma que faz o repositorio da maquina tambem va para o github
+o push é usado para fazer o commit da maquina no remote(github)
+o pull é o contrario do pull, vc puxa o que tem no github para a maquina
+
+
+parte pratica 
+o git bash é um terminal do git pra controlar os repositorio
+o git --version mostra a versão
+
+se criarmos uma pagina pro nosso projeto, modemos abrir ela com visual studio code
+criar um arquivo 'readme.md' o md é a extensão mark down uma linguagem de marcação
+e podemos add um leiame 
+
+se abrirmos a nossa pasta com git bash podemos inicializar o projeto
+git init
+ele esta vazio 
+e estamos dentro da branch master como indica o terminal
+
+dentro da nossa pasta é criada uma pasta .git
+ela tem varias configurações das versões 
+
+esse repositorio ainda não possui commit
+
+para podermos preparar um arquivo ou mais para subir podemos fazer
+git add . para mandar tudo
+ou o git add nome do arquivo.extensao
+
+se quisermos ver os status dos arquivos damso o 
+git status
+ 
+tudo certo agora podemos commitar
+git commit -m "mensagem do comit"
+
+se dermos o git status ele vai dizer nada a comitar, pois vai estar tudo comitado
+
+o comando para mudar de branch
+git branch -M "main"
+
+
