@@ -100,8 +100,14 @@ git checkout -b "nome_nova_branch"
 
 fazendo isso ja troca alem de criar a nova branch/area de trabalho
 
+para voltarmos pra branch main
+git checkout main
 
+agora para fazermoos o merge e casar aa nova branch com a main 
+git merge nome_nova_branch
 
+depois damos o push na main pra subir tudo
+git push origin main
 
 
 
